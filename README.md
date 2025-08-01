@@ -36,3 +36,21 @@ When a router receives a data packet, it looks at the **destination IP address**
 4. **Forward or Drop:**  
    - If a match is found → forward to the `next hop`
    - If not → packet is dropped
+  
+#### Example:
+
+| Destination | Subnet Mask | Next Hop |
+|-------------|-------------|----------|
+| 192.168.1.0 | 255.255.255.0 | 10.0.0.1 |
+| 192.168.0.0 | 255.255.0.0   | 10.0.0.2 |
+
+Input IP: `192.168.1.45`
+
+- Matches both entries.
+- But `192.168.1.0/24` has a longer prefix → router forwards to `10.0.0.1`.
+
+## 🛠️ Technologies Used
+
+- **Java** – Core programming language
+- **Swing** – GUI framework for desktop interface
+- **OOP Concepts** – Classes like `Router`, `RouteEntry`, and `IPUtils`
