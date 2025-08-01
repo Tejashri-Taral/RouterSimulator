@@ -1,7 +1,7 @@
 #  Router Simulator (Java + Swing)
 A simple educational project that simulates how routers forward packets based on a routing table using IP addressing and subnet matching. Built with Java and Swing, this tool demonstrates the core concept of **packet forwarding**, **longest prefix matching**, and **IP routing logic** - just like how the internet routes data between devices.
 
-## 🔎 Overview
+## Overview
 
 This project simulates how routers process and forward packets based on a **destination IP address** and a **routing table**. The GUI allows users to:
 
@@ -10,7 +10,7 @@ This project simulates how routers process and forward packets based on a **dest
 - Check if the router forwards or drops the packet
 - View routing decisions and longest prefix match in action
 
-## ✨ Features
+## Features
 
 - Longest Prefix Matching logic (like real routers)
 - Add or delete routing table entries
@@ -18,7 +18,7 @@ This project simulates how routers process and forward packets based on a **dest
 - Packet forwarding result shown clearly (Forwarded or Dropped)
 - CLI version also available (optional)
 
-## 🌐 How Routing Works
+## How Routing Works
 
 When a router receives a data packet, it looks at the **destination IP address** and decides where to forward the packet. It does this using a **routing table**.
 
@@ -49,7 +49,7 @@ Input IP: `192.168.1.45`
 - Matches both entries.
 - But `192.168.1.0/24` has a longer prefix → router forwards to `10.0.0.1`.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Java** – Core programming language
 - **Swing** – GUI framework for desktop interface
