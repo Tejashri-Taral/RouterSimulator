@@ -17,3 +17,22 @@ This project simulates how routers process and forward packets based on a **dest
 - Interactive Swing GUI for input/output
 - Packet forwarding result shown clearly (Forwarded or Dropped)
 - CLI version also available (optional)
+
+## 🌐 How Routing Works
+
+When a router receives a data packet, it looks at the **destination IP address** and decides where to forward the packet. It does this using a **routing table**.
+
+### Routing Steps:
+
+1. **Convert IP to Binary:**  
+   Both destination IP and routing table entries are converted into binary format.
+
+2. **Match with Subnet Mask:**  
+   Using the subnet mask, the router compares the destination IP with the entries in the table.
+
+3. **Longest Prefix Match:**  
+   It chooses the route with the longest matching prefix bits (most specific match).
+
+4. **Forward or Drop:**  
+   - If a match is found → forward to the `next hop`
+   - If not → packet is dropped
