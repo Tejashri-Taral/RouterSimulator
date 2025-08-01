@@ -9,3 +9,11 @@ This project simulates how routers process and forward packets based on a **dest
 - Enter a destination IP to simulate a packet being sent
 - Check if the router forwards or drops the packet
 - View routing decisions and longest prefix match in action
+
+## ✨ Features
+
+- Longest Prefix Matching logic (like real routers)
+- Add or delete routing table entries
+- Interactive Swing GUI for input/output
+- Packet forwarding result shown clearly (Forwarded or Dropped)
+- CLI version also available (optional)
