@@ -16,7 +16,7 @@ This project simulates how routers process and forward packets based on a **dest
 - Add or delete routing table entries
 - Interactive Swing GUI for input/output
 - Packet forwarding result shown clearly (Forwarded or Dropped)
-- CLI version also available (optional)
+- CLI version also available 
 
 ## How Routing Works
 
