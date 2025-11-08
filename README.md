@@ -18,6 +18,18 @@ This project simulates how routers process and forward packets based on a **dest
 - Packet forwarding result shown clearly (Forwarded or Dropped)
 - CLI version also available 
 
+
+## Screenshots
+
+### Routing Table GUI
+![Routing Table](screenshots/routing_table.png)
+
+### Packet Simulation
+![Packet Simulation](screenshots/packet_simulation.png)
+
+### Forwarding Result
+![Forwarding Result](screenshots/forwarded_result.png)
+
 ## How Routing Works
 
 When a router receives a data packet, it looks at the **destination IP address** and decides where to forward the packet. It does this using a **routing table**.
