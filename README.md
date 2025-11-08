@@ -31,7 +31,9 @@ This project simulates how routers process and forward packets based on a **dest
 
 
 ### Forwarding Result
-![Forwarding Result](screenshots/forwarded_result.png)
+<img width="917" height="373" alt="image" src="https://github.com/user-attachments/assets/7438ab4e-8038-4aec-8128-2b3b52488525" />
+
+
 
 ## How Routing Works
 
