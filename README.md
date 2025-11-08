@@ -32,9 +32,21 @@ This project simulates how routers process and forward packets based on a **dest
 
 ### Forwarding Result
 <img width="917" height="373" alt="image" src="https://github.com/user-attachments/assets/7438ab4e-8038-4aec-8128-2b3b52488525" />
+E.g. Input IP: 192.168.1.45
 
-<img width="974" height="354" alt="image" src="https://github.com/user-attachments/assets/dd51e212-086c-44d5-8bb2-e821fd46c493" />
+Matches: 192.168.1.0/24 (two entries), 192.168.0.0/16
 
+Longest prefix match: /24
+
+Metric used: 10.0.0.1 (metric 1 < 5) → Forward to 10.0.0.1
+
+<img width="903" height="354" alt="image" src="https://github.com/user-attachments/assets/0d5cb45d-6955-4eb1-b84e-3d5175737173" />
+
+Input IP: 192.168.5.20
+
+Matches: 192.168.0.0/16 only
+
+Forward to 10.0.0.3
 
 ## How Routing Works
 
