@@ -33,6 +33,7 @@ This project simulates how routers process and forward packets based on a **dest
 ### Forwarding Result
 <img width="917" height="373" alt="image" src="https://github.com/user-attachments/assets/7438ab4e-8038-4aec-8128-2b3b52488525" />
 
+<img width="974" height="354" alt="image" src="https://github.com/user-attachments/assets/dd51e212-086c-44d5-8bb2-e821fd46c493" />
 
 
 ## How Routing Works
