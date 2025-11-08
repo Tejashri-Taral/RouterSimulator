@@ -26,8 +26,9 @@ This project simulates how routers process and forward packets based on a **dest
 
 
 
-### Packet Simulation
-![Packet Simulation](screenshots/packet_simulation.png)
+### Packet Input
+<img width="902" height="460" alt="image" src="https://github.com/user-attachments/assets/15eb97b0-6138-4913-9b84-0791d674c24a" />
+
 
 ### Forwarding Result
 ![Forwarding Result](screenshots/forwarded_result.png)
