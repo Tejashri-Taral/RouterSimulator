@@ -32,6 +32,7 @@ This project simulates how routers process and forward packets based on a **dest
 
 ### Forwarding Result
 <img width="917" height="373" alt="image" src="https://github.com/user-attachments/assets/7438ab4e-8038-4aec-8128-2b3b52488525" />
+
 E.g. Input IP: 192.168.1.45
 
 Matches: 192.168.1.0/24 (two entries), 192.168.0.0/16
