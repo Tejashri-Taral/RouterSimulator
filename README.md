@@ -22,7 +22,8 @@ This project simulates how routers process and forward packets based on a **dest
 ## Screenshots
 
 ### Routing Table GUI
-<img width="1018" height="622" alt="image" src="https://github.com/user-attachments/assets/5423da8f-c209-4e51-b4ae-81ab0fa9368e" />
+<img width="857" height="547" alt="image" src="https://github.com/user-attachments/assets/37ce06f6-0c74-4584-be2f-a489142fafb8" />
+
 
 
 ### Packet Simulation
